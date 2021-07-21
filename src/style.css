@@ -1,0 +1,148 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h3 {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h4 {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 12px;
+}
+
+#current-wind, #current-humidity {
+ font-size: 12px; 
+}
+
+body {
+  background: #fffef3;
+}
+
+a:link {
+  color: #333;
+  text-decoration: none;
+}
+a:visited {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #fffef3;
+  text-decoration: none;
+  transition: all 140ms ease-in-out;
+}
+
+a:active {
+  color: #333;
+  text-decoration: none;
+}
+
+.city {
+  font-size: 48px;
+  padding-bottom: 0;
+  margin-bottom: 30;
+}
+
+.weather {
+  padding-top: 0;
+  margin-top: 0;
+  text-align: left;
+  font-size: 32px;
+}
+
+.temp {
+  font-size: 22px;
+  text-align: left;
+}
+
+#current-date {
+  text-align: left;
+  font-style: italic;
+}
+
+.card-title,
+.card-text {
+  font-size: 12px;
+}
+
+.card {
+  margin: 150px 0 30px 0;
+}
+.card-body {
+  background: #fffef3;
+}
+
+.container {
+  background-color: #d9cfab;
+  margin-top: 20px;
+}
+
+.sunshine,
+.cloudy {
+  color: #333;
+}
+
+form {
+  margin: 30px 0;
+  width: 50%;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+}
+
+input[type="text"] {
+  background-color: #d9cfab;
+  border: 1px solid #fffef3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #fffef3;
+}
+
+::placeholder {
+  color: #fffef3;
+}
+
+input[type="submit"] {
+  background-color: #d9cfab;
+  border: 1px solid #fffef3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fffef3;
+  transition: all 200ms ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #fffef3;
+  border: 1px solid #fffef3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #d9cfab;
+  transition: all 140ms ease-in-out;
+}
+
