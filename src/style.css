@@ -146,3 +146,6 @@ input[type="submit"]:hover {
   transition: all 140ms ease-in-out;
 }
 
+.opensource {
+  text-align: center;
+}
